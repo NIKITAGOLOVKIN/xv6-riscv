@@ -15,6 +15,5 @@ main(int argc, char *argv[])
 
     int result = plus(a, b);
 
-    printf("%d\n", result);
     exit(0);
 }

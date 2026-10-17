@@ -10,8 +10,8 @@ uint64 sys_plus(void){
     argint(0, &a);
     argint(1, &b);
 
-    printk("sys_plus    " "%d   a - %d,  b- %d\n", a+ b, a, b);
+    printk("sys_plus    " "%d a - %d,  b - %d\n", a + b, a, b);
 
-    return a + b;
+    return 0;
 
 }
